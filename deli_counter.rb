@@ -1,4 +1,4 @@
-
+current = []
 def line(queue)
   if queue.length > 0
      current = "The line is currently:"
