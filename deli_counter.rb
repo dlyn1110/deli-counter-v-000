@@ -1,7 +1,12 @@
 
 def line(queue)
   if queue.length < 0
-    puts "The line is currently empty."
+     current = "The line is currently:"
+  else queue.each_with_index { |name,index| 
+    current += "#{index + 1}, #{name}"
+    } 
+    puts current
+  else "The line is currently empty."
   end
 end
 
