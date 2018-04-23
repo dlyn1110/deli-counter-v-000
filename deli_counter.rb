@@ -1,7 +1,7 @@
-katz_deli = []
+line = []
 counter = 0
-def line
-  if katz_deli
+def line()
+  if 
     puts "The line is currently empty."
   end
 end
