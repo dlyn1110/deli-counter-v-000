@@ -1,4 +1,4 @@
-current = []
+
 def line(queue)
   if queue.length > 0
      current = "The line is currently:"
@@ -14,5 +14,6 @@ end
   puts "Welcome, #{name}. You are number #{queue.length} in line."
   end
 
-def now_serving
+def now_serving(queue)
+  current = "The line is empty"
 end
