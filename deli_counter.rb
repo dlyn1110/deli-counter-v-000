@@ -18,7 +18,7 @@ def take_a_number(queue,name)
 end
 
 def now_serving(queue)
-  if queue.length < 0
+  if queue.length > 0
     puts "Currently serving #{queue[0]}."
     queue.shift
   else
